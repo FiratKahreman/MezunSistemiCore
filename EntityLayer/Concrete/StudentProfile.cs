@@ -11,7 +11,7 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int StudentProfileId { get; set; }
-        public int StudentId { get; set; }
+        public Student Student { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PictureId { get; set; }
