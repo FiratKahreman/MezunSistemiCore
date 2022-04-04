@@ -13,7 +13,9 @@ namespace EntityLayer.Concrete
         public int StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Mail { get; set; }
         public string Program { get; set; }
+        public Faculty Faculty { get; set; }
         public StudentProfile StudentProfile { get; set; }
     }
 }

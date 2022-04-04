@@ -11,6 +11,7 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int DiscountsId { get; set; }
+        public Card Card { get; set; }
         public int UsedDiscountsOnMonth { get; set; }
         public int UsedDiscountsOnAll { get; set; }
         public int RemainingDiscounts { get; set; }
