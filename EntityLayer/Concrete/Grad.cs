@@ -19,6 +19,7 @@ namespace EntityLayer.Concrete
         public DateTime GraduationDate { get; set; }
         public bool Working { get; set; } // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         public bool GotCard { get; set; }
+        public string GradType { get; set; }
 
     }
 }

@@ -14,7 +14,7 @@ namespace EntityLayer.Concrete
         public DateTime OrderDate { get; set; }
         public DateTime ExpiryDate { get; set; }
         public Discount Discount { get; set; }
-        public string GradType { get; set; } 
+        
 
     }
 }
